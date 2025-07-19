@@ -18,7 +18,7 @@ This is a simple Golang boilerplate project using Gin, sqlc and PostgreSQL.
    ```
 3. Run the server (ensure `DATABASE_URL` is set if not using the default local connection):
    ```bash
-   go run .
+   go run ./cmd/server
    ```
 
 The server exposes two endpoints:
